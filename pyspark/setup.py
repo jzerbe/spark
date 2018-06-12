@@ -6,6 +6,6 @@ setup(name='pyspark',
       url='https://github.com/jzerbe/spark',
       author='Jason Zerbe',
       author_email='jzerbe@vraidsys.com',
-      license='MIT',
+      license='Apache License 2.0',
       packages=['pyspark'],
       zip_safe=True)
