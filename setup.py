@@ -1,11 +1,14 @@
+from setuptools import find_packages
 from setuptools import setup
 
-setup(name='pyspark',
-      version='v1.6.3-pyspark',
-      description='spark 1.6.3 paired down to just be an installable python package',
-      url='https://github.com/jzerbe/spark',
-      author='Jason Zerbe',
-      author_email='jzerbe@vraidsys.com',
-      license='Apache License 2.0',
-      packages=['pyspark'],
-      zip_safe=True)
+setup(
+    author='Jason Zerbe',
+    author_email='jzerbe@vraidsys.com',
+    description='spark 1.6.3 paired down to just be an installable python package',
+    license='Apache License 2.0',
+    name='pyspark',
+    packages=find_packages(),
+    url='https://github.com/jzerbe/spark',
+    version='v1.6.3-pyspark',
+    zip_safe=True
+)
